@@ -1,4 +1,4 @@
-import { PrismaClient, WebhookEventType, WebhookStatus } from "../generated/client";
+import { PrismaClient, WebhookEventType, WebhookStatus } from "../generated/client/client";
 
 import { eventBus, AppEvents } from "./EventService";
 
